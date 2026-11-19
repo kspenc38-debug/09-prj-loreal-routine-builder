@@ -25,7 +25,7 @@ let selectedProducts = [];
 let allProducts = [];
 let filteredProducts = [];
 let showAllProducts = false;
-const initialProductLimit = 6;
+const initialProductLimit = 8;
 
 try {
   const savedProducts = JSON.parse(
